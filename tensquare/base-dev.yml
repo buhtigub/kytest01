@@ -9,9 +9,11 @@ spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     #url: jdbc:mysql://192.168.25.128:3306/tensquare_base?characterEncoding=utf-8
-    url: jdbc:mysql://192.168.25.129:3306/tensquare_base?characterEncoding=utf-8
+    #url: jdbc:mysql://192.168.25.129:3306/tensquare_base?characterEncoding=utf-8
+    url: jdbc:mysql://27.0.0.1:3306/tensquare_base?characterEncoding=utf-8
     username: root
-    password: 123456
+    #password: 123456
+    password: root
 
   jpa:
     database: mysql
