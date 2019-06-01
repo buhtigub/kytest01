@@ -24,6 +24,8 @@ eureka:
     service-url:
       defaultZone: http://127.0.0.1:6868/eureka
     #enabled: false
+sms:
+  ip: 127.0.0.1
 
 
 
